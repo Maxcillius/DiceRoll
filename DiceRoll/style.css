@@ -1,0 +1,48 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: lightgreen;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.player1 {
+  flex: 1;
+  text-align: center;
+}
+
+.player2 {
+  flex: 1;
+  text-align: center;
+}
+
+p {
+  font-size: 70px;
+  color: darkblue;
+}
+
+.roll {
+  margin-top: 50px;
+  display: flex;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 100px;
+  color: darkcyan;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: aquamarine;
+}
